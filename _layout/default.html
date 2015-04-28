@@ -1,4 +1,15 @@
-{% include head.html %}
+<html>
+<head>
+  <title>{{ site.name }}</title>
+</head>
+
+<body>
+  <h1>{{ site.name }}</h1>
+  {% include head.html %}
 {% include nav.html %}
 {{ content }}
 {% include footer.html %}
+</body>
+</html>
+
+
